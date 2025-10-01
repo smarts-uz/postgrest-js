@@ -1,6 +1,6 @@
 {
   "name": "@teamprodevs/postgrest-js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Isomorphic PostgREST client",
   "keywords": ["postgrest", "supabase"],
   "license": "MIT",
@@ -10,18 +10,18 @@
     "url": "git+https://github.com/smarts-uz/postgrest-js.git"
   },
   "files": ["dist"],
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.mjs",
-  "types": "dist/types/index.d.ts",
+  "main": "dist/index.js",      
+  "module": "dist/index.mjs",   
+  "types": "dist/index.d.ts",    
   "exports": {
     ".": {
       "import": {
-        "types": "./dist/types/index.d.ts",
-        "default": "./dist/esm/index.mjs"
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
       },
       "require": {
-        "types": "./dist/types/index.d.ts",
-        "default": "./dist/cjs/index.js"
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
       }
     }
   },
