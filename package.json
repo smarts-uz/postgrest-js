@@ -1,5 +1,5 @@
 {
-  "name": "@smarts/postgrest-js",
+  "name": "@teamprodevs/postgrest-js",
   "version": "0.0.1",
   "description": "Isomorphic PostgREST client",
   "keywords": [
