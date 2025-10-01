@@ -1,6 +1,6 @@
 {
   "name": "@smarts/postgrest-js",
-  "version": "0.0.0-automated",
+  "version": "0.0.1",
   "description": "Isomorphic PostgREST client",
   "keywords": [
     "postgrest",
