@@ -15,13 +15,13 @@ Full documentation can be found [here](https://supabase.github.io/postgrest-js/v
 Install
 
 ```bash
-npm install @supabase/postgrest-js
+npm install @teamprodevs/postgrest-js
 ```
 
 Usage
 
 ```js
-import { PostgrestClient } from '@supabase/postgrest-js'
+import { PostgrestClient } from '@teamprodevs/postgrest-js'
 
 const REST_URL = 'http://localhost:3000'
 const postgrest = new PostgrestClient(REST_URL)
@@ -37,7 +37,7 @@ const postgrest = new PostgrestClient(REST_URL)
 `postgrest-js` uses the [`cross-fetch`](https://www.npmjs.com/package/cross-fetch) library to make HTTP requests, but an alternative `fetch` implementation can be provided as an option. This is most useful in environments where `cross-fetch` is not compatible, for instance Cloudflare Workers:
 
 ```js
-import { PostgrestClient } from '@supabase/postgrest-js'
+import { PostgrestClient } from '@teamprodevs/postgrest-js'
 
 const REST_URL = 'http://localhost:3000'
 const postgrest = new PostgrestClient(REST_URL, {
