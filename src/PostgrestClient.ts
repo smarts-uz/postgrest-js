@@ -92,12 +92,6 @@ export default class PostgrestClient<
     this.headers.set('Authorization', `Bearer ${token}`)
   }
   /**
-   * Remove the Authorization token
-   */
-  resetToken() {
-    this.headers.delete('Authorization')
-  }
-  /**
    * Select a schema to query or perform an function (rpc) call.
    *
    * The schema needs to be on the list of exposed schemas inside Supabase.
