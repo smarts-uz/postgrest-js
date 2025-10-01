@@ -1,6 +1,6 @@
 {
   "name": "@teamprodevs/postgrest-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Isomorphic PostgREST client",
   "keywords": [
     "postgrest",
