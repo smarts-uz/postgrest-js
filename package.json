@@ -6,8 +6,8 @@
     "postgrest",
     "supabase"
   ],
-  "homepage": "https://github.com/supabase/postgrest-js",
-  "bugs": "https://github.com/supabase/postgrest-js/issues",
+  "homepage": "https://github.com/smarts-uz/postgrest-js",
+  "bugs": "https://github.com/smarts-uz/postgrest-js/issues",
   "license": "MIT",
   "author": "Supabase",
   "files": [
@@ -27,7 +27,10 @@
     }
   },
   "types": "./dist/cjs/index.d.ts",
-  "repository": "supabase/postgrest-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smarts-uz/postgrest-js.git"
+  },
   "scripts": {
     "clean": "rimraf dist docs/v2",
     "format": "prettier --write \"{src,test}/**/*.ts\" wrapper.mjs",
