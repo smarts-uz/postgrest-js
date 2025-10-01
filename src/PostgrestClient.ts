@@ -85,7 +85,18 @@ export default class PostgrestClient<
       fetch: this.fetch,
     })
   }
-
+  /**
+   * Set or replace the Authorization token dynamically
+   */
+  setToken(token: string) {
+    this.headers.set('Authorization', `Bearer ${token}`)
+  }
+  /**
+   * Remove the Authorization token
+   */
+  resetToken() {
+    this.headers.delete('Authorization')
+  }
   /**
    * Select a schema to query or perform an function (rpc) call.
    *
